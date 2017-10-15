@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{959F5685-6735-4DEF-85BB-C0ACA1DC250E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>journal</RootNamespace>
+    <AssemblyName>journal</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="administrator\Add\AddGrup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administrator\Add\AddGrup.Designer.cs" />
+    <Compile Include="administrator\Add\AddPredmet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administrator\Add\AddPredmet.Designer.cs" />
+    <Compile Include="administrator\Add\AddPrepod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administrator\Add\AddPrepod.Designer.cs" />
+    <Compile Include="administrator\Add\AddStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administrator\Add\AddStudent.Designer.cs" />
+    <Compile Include="administrator\AdminMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administrator\AdminMain.Designer.cs" />
+    <Compile Include="administrator\Delete\DeleteGrup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administrator\Delete\DeleteGrup.Designer.cs" />
+    <Compile Include="administrator\Delete\DeletePeople.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administrator\Delete\DeletePeople.Designer.cs" />
+    <Compile Include="administrator\Delete\DeletePredmet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administrator\Delete\DeletePredmet.Designer.cs" />
+    <Compile Include="administrator\ShowTables.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administrator\ShowTables.Designer.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs" />
+    <Compile Include="NewPasswordDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewPasswordDialog.Designer.cs" />
+    <Compile Include="prepod\Choice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="prepod\Choice.Designer.cs" />
+    <Compile Include="prepod\EnterMarks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="prepod\EnterMarks.Designer.cs" />
+    <Compile Include="prepod\PrepodMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="prepod\PrepodMain.Designer.cs" />
+    <Compile Include="prepod\View.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="prepod\View.Designer.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="student\Dnevnic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="student\Dnevnic.Designer.cs" />
+    <Compile Include="student\StudentMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="student\StudentMain.Designer.cs" />
+    <Compile Include="student\ViewPrepod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="student\ViewPrepod.Designer.cs" />
+    <Compile Include="student\View_Journal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="student\View_Journal.Designer.cs" />
+    <EmbeddedResource Include="administrator\Add\AddGrup.resx" />
+    <EmbeddedResource Include="administrator\Add\AddPredmet.resx" />
+    <EmbeddedResource Include="administrator\Add\AddPrepod.resx" />
+    <EmbeddedResource Include="administrator\Add\AddStudent.resx" />
+    <EmbeddedResource Include="administrator\AdminMain.resx" />
+    <EmbeddedResource Include="administrator\Delete\DeleteGrup.resx" />
+    <EmbeddedResource Include="administrator\Delete\DeletePeople.resx" />
+    <EmbeddedResource Include="administrator\Delete\DeletePredmet.resx" />
+    <EmbeddedResource Include="administrator\ShowTables.resx" />
+    <EmbeddedResource Include="MainForm.resx" />
+    <EmbeddedResource Include="NewPasswordDialog.resx" />
+    <EmbeddedResource Include="prepod\Choice.resx" />
+    <EmbeddedResource Include="prepod\EnterMarks.resx" />
+    <EmbeddedResource Include="prepod\PrepodMain.resx" />
+    <EmbeddedResource Include="prepod\View.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="student\Dnevnic.resx" />
+    <EmbeddedResource Include="student\StudentMain.resx" />
+    <EmbeddedResource Include="student\ViewPrepod.resx" />
+    <EmbeddedResource Include="student\View_Journal.resx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\journalLibrary\journalLibrary.csproj">
+      <Project>{3007f66b-7193-4014-b44f-3fc4d18bce54}</Project>
+      <Name>journalLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
