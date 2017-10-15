@@ -7,43 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "journal", "journal\journal.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "journalLibrary", "journalLibrary\journalLibrary.csproj", "{3007F66B-7193-4014-B44F-3FC4D18BCE54}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{34801703-84A0-4C9D-B6B8-9E3FF65634C5}"
-	ProjectSection(SolutionItems) = preProject
-		D:\Server\Практика 3 курс\КПЗ\journal\Документация\Отчёт.doc = D:\Server\Практика 3 курс\КПЗ\journal\Документация\Отчёт.doc
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UML", "UML", "{78CAE99F-4808-4FF8-87D2-44A6FC996B06}"
-	ProjectSection(SolutionItems) = preProject
-		D:\Server\Практика 3 курс\КПЗ\journal\Документация\Диаграммы\Colloboration d.- admin.png = D:\Server\Практика 3 курс\КПЗ\journal\Документация\Диаграммы\Colloboration d.- admin.png
-		D:\Server\Практика 3 курс\КПЗ\journal\Документация\Диаграммы\Colloboration d.- student.png = D:\Server\Практика 3 курс\КПЗ\journal\Документация\Диаграммы\Colloboration d.- student.png
-		D:\Server\Практика 3 курс\КПЗ\journal\Документация\Диаграммы\Colloboration d.- teacher.png = D:\Server\Практика 3 курс\КПЗ\journal\Документация\Диаграммы\Colloboration d.- teacher.png
-		D:\Server\Практика 3 курс\КПЗ\journal\Документация\Диаграммы\DB.jpg = D:\Server\Практика 3 курс\КПЗ\journal\Документация\Диаграммы\DB.jpg
-		D:\Server\Практика 3 курс\КПЗ\journal\Документация\Диаграммы\Sequence d. - admin.png = D:\Server\Практика 3 курс\КПЗ\journal\Документация\Диаграммы\Sequence d. - admin.png
-		D:\Server\Практика 3 курс\КПЗ\journal\Документация\Диаграммы\Sequence d. - student.png = D:\Server\Практика 3 курс\КПЗ\journal\Документация\Диаграммы\Sequence d. - student.png
-		D:\Server\Практика 3 курс\КПЗ\journal\Документация\Диаграммы\Sequence d. - teacher.png = D:\Server\Практика 3 курс\КПЗ\journal\Документация\Диаграммы\Sequence d. - teacher.png
-		D:\Server\Практика 3 курс\КПЗ\journal\Документация\Диаграммы\usecase.jpg = D:\Server\Практика 3 курс\КПЗ\journal\Документация\Диаграммы\usecase.jpg
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Prototype", "{6F8F4BEC-1096-4231-9D55-803BC20B0A53}"
-	ProjectSection(SolutionItems) = preProject
-		D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(1).png = D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(1).png
-		D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(10).png = D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(10).png
-		D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(11).png = D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(11).png
-		D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(12).png = D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(12).png
-		D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(13).png = D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(13).png
-		D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(14).png = D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(14).png
-		D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(15).png = D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(15).png
-		D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(16).png = D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(16).png
-		D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(2).png = D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(2).png
-		D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(3).png = D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(3).png
-		D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(4).png = D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(4).png
-		D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(5).png = D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(5).png
-		D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(6).png = D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(6).png
-		D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(7).png = D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(7).png
-		D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(8).png = D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(8).png
-		D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(9).png = D:\Server\Практика 3 курс\КПЗ\journal\Документация\Макет\(9).png
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,10 +24,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{78CAE99F-4808-4FF8-87D2-44A6FC996B06} = {34801703-84A0-4C9D-B6B8-9E3FF65634C5}
-		{6F8F4BEC-1096-4231-9D55-803BC20B0A53} = {34801703-84A0-4C9D-B6B8-9E3FF65634C5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7E339FB9-D25E-4F94-9A82-D00A29B16E62}
