@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F6962E56-31C9-405D-9615-93517A2894A6}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Documentation</RootNamespace>
+    <AssemblyName>Documentation</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Отчёт.doc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Prototype\%281%29.png" />
+    <Content Include="Prototype\%2810%29.png" />
+    <Content Include="Prototype\%2811%29.png" />
+    <Content Include="Prototype\%2812%29.png" />
+    <Content Include="Prototype\%2813%29.png" />
+    <Content Include="Prototype\%2814%29.png" />
+    <Content Include="Prototype\%2815%29.png" />
+    <Content Include="Prototype\%2816%29.png" />
+    <Content Include="Prototype\%282%29.png" />
+    <Content Include="Prototype\%283%29.png" />
+    <Content Include="Prototype\%284%29.png" />
+    <Content Include="Prototype\%285%29.png" />
+    <Content Include="Prototype\%286%29.png" />
+    <Content Include="Prototype\%287%29.png" />
+    <Content Include="Prototype\%288%29.png" />
+    <Content Include="Prototype\%289%29.png" />
+    <Content Include="UML\Colloboration d.- admin.png" />
+    <Content Include="UML\Colloboration d.- student.png" />
+    <Content Include="UML\Colloboration d.- teacher.png" />
+    <Content Include="UML\DB.jpg" />
+    <Content Include="UML\Sequence d. - admin.png" />
+    <Content Include="UML\Sequence d. - student.png" />
+    <Content Include="UML\Sequence d. - teacher.png" />
+    <Content Include="UML\usecase.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
